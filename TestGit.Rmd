@@ -1,0 +1,20 @@
+---
+title: "TestGit"
+author: "Saumya Saxena"
+date: '2022-07-06'
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+```{r check}
+get_yesterday <- function(){
+ return (Sys.Date()-1)
+}
+
+print(get_yesterday())
+```
