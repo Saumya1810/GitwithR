@@ -16,5 +16,6 @@ get_yesterday <- function(){
  return (Sys.Date()-2)
 }
 
-print(get_yesterday())
+yesterday <- (get_yesterday())
+print(yesterday)
 ```
