@@ -13,7 +13,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```{r check}
 get_yesterday <- function(){
- return (Sys.Date()-1)
+ return (Sys.Date()-2)
 }
 
 print(get_yesterday())
